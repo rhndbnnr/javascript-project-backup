@@ -1,10 +1,13 @@
+//Class One//
+
 //Variables and Values
 /* a variable is a memory location used to hold data
 - a string variable is text- more to add later
 
 Keywords for variables
-- var = functional block scope
-- let = block scope (mainly text)
+- var = functional block scope/ are able to reassign values
+- let = block scope (mainly text)/ are able to reassign values
+- const = cannot reassign values
 */
 
 //declaring a variable in javascript
@@ -15,7 +18,7 @@ var y = 30; //initialization
 
 console.log(y); */
 
-let x = 10; //example using let follows to line 26
+/*let x = 10; //example using let follows to line 26
 var y = 20;
 console.log(x);
 
@@ -35,3 +38,15 @@ function myFunction() {
 }
 
 x = 10; // browser wont bark at ya but it will make it global instead
+
+//Global Scope Variable
+
+const countries = ["USA", "CANADA"]; //cant reassign a new value to a const like we can w/ var and let
+
+function myFunc() {
+  countries(0);
+} // can access const anywhere within your code because the values do not change */
+
+const myName = "Rhonda"; // Try a const like this & see how it goes in the output
+myName = "Chenoa";
+console.log(myName);
