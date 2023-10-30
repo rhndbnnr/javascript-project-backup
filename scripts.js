@@ -122,7 +122,7 @@ if (a < b) {
 
 console.log(result); */
 
-//Logical Operators - and && ... or ||... ! knot (forces a false result if true. Changes the outcome)
+/*Logical Operators - and && ... or ||... ! knot (forces a false result if true. Changes the outcome)
 
 var a = 5,
   b = 10,
@@ -131,4 +131,52 @@ var x = a;
 
 var result = a < b || a == b;
 
-console.log(result);
+console.log(result);*/
+
+/*Basic Parsefloat
+
+let myAge = parseFloat(prompt("Enter your age"));
+let nyName = prompt("Enter your name");
+alert("Hello " + myName + ", you are" + myAge + " years old.");*/
+
+/*Conditions
+
+//if statement
+
+let a = 10,
+  b = 20,
+  c = 5;
+
+if (a > b) {
+  console.log("thruthy");
+} else {
+  console.log("falsy");
+}*/
+
+/*testing multiple conditions
+
+let a = 10,
+  b = 20,
+  c = 5;
+
+if (a > b) {
+  console.log("truthy");
+} else if (a > c) {
+  console, log("truthy in else if statement");
+} else {
+  console.log("falsy");
+}*/
+
+/*Switch Statement
+
+let grade = "A";
+
+switch (grade) {
+  case "A":
+    console.log("Grade A");
+    break; //put in a break statement when you only want the let var to show.
+  case "B":
+    console.log("Grade B");
+  default:
+    console.log("default"); //default will always print if no other cases match expression
+}*/
