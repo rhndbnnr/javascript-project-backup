@@ -1,4 +1,4 @@
-//Class One//
+//Class One
 
 //Variables and Values
 /* a variable is a memory location used to hold data
@@ -133,7 +133,9 @@ var result = a < b || a == b;
 
 console.log(result);*/
 
-/*Basic Parsefloat
+//Class 2
+
+/*Parsefloat
 
 let myAge = parseFloat(prompt("Enter your age"));
 let nyName = prompt("Enter your name");
@@ -180,3 +182,19 @@ switch (grade) {
   default:
     console.log("default"); //default will always print if no other cases match expression
 }*/
+
+/*Math Object Methods
+
+let random = Math.random() * 5; //this function allows you to choose a random number
+let round = Math.floor(random); //round the number/ always round up use math.ceil
+let PI = Math.PI; //generates PI every time
+console.log(random);
+console.log(round);
+console.log(PI);*/
+
+/*Math Objects in Use
+
+let radius = 5;
+let area = Math.PI * radius * radius;
+console.log("The area is " + area);
+document.getElementById("myCircles").innerHTML = area; //For HTML file-- remove the console log*/
