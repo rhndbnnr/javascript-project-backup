@@ -3,6 +3,7 @@
 //Variables and Values
 /* a variable is a memory location used to hold data
 - a string variable is text- more to add later
+-You can declare multiple variables on one line if they are separated by a comma
 
 Keywords for variables
 - var = functional block scope/ are able to reassign values
@@ -51,7 +52,7 @@ function myFunc() {
 myName = "Chenoa";
 console.log(myName);*/
 
-let myName = "Rhonda"; // String Type
+/*let myName = "Rhonda"; // String Type
 let myAge = 22; //Number Type- if 22 is in quotes it will be a string type
 let isOld = true; //Boolean Type = true or false
 let bar; //Undefined = just declaring a variable
@@ -65,8 +66,69 @@ let c = a + b;
 
 console.log(c);
 
-let d = "Rhonda "; // This is how the + operator is used with text
+let d = "Rhonda"; // This is how the + operator is used with text
 let e = "Bonner";
 let f = d + e;
 
-console.log(f);
+console.log(f);*/
+
+/*Arithmatic Operators__ + - * / %
+
+let a = 10;
+let b = 3;
+let c = a % b;
+a++; // increment operator will increase the total by 1 using a++;
+//decrement operator will decrease by 1 by using a--;
+console.log(c);
+
+var x = 5,
+  y = 10,
+  z = 15;
+result = x + y + z; //declaring multiple variables on one line
+
+console.log(result);*/
+
+/*Assignment Operators
+
+var x = 5,
+  y = 10,
+  z = 15,
+  result = x + y + z;
+
+x += 5; // equivalent to saying x = x + 5
+x -= 2; // equivalent to saying x = x - 2
+
+console.log(x);*/
+
+/* Comparison Operators
+
+var a = 5,
+  b = 10,
+  c = "5";
+var x = a;
+var result = a === c; // == stands for loose equality-- three === means strict equality
+
+var result = a != b; //inequality !=
+
+var result = a < b; // can also use greater than or equal to >= and all the other combos with greater than and less than
+
+var result = "Success!!";
+
+if (a < b) {
+  console.log(result);
+} else {
+  console.log("A is not greater than B");
+}
+
+console.log(result); */
+
+//Logical Operators - and && ... or ||... ! knot (forces a false result if true. Changes the outcome)
+
+var a = 5,
+  b = 10,
+  c = "5";
+var x = a;
+
+var result = a < b || a == b;
+
+console.log(result);
