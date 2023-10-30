@@ -16,9 +16,9 @@ Keywords for variables
 x = 10; //assignment
 var y = 30; //initialization
 
-console.log(y); */
+console.log(y);
 
-/*let x = 10; //example using let follows to line 26
+let x = 10; //example using let follows to line 26
 var y = 20;
 console.log(x);
 
@@ -33,7 +33,7 @@ function myFunction() {
   var x = 10;
 
   if ((n = 20)) {
-    x = 20;
+    x = 10;
   }
 }
 
@@ -47,6 +47,26 @@ function myFunc() {
   countries(0);
 } // can access const anywhere within your code because the values do not change */
 
-const myName = "Rhonda"; // Try a const like this & see how it goes in the output
+/*const myName = "Rhonda"; // Try a const like this & see how it goes in the output
 myName = "Chenoa";
-console.log(myName);
+console.log(myName);*/
+
+let myName = "Rhonda"; // String Type
+let myAge = 22; //Number Type- if 22 is in quotes it will be a string type
+let isOld = true; //Boolean Type = true or false
+let bar; //Undefined = just declaring a variable
+
+//Differences between String and Number Types
+//with numbers you can perform math however you cant with strings
+
+let a = 10;
+let b = "10"; // Deleting the quotes and just having the number, it will perform the math
+let c = a + b;
+
+console.log(c);
+
+let d = "Rhonda "; // This is how the + operator is used with text
+let e = "Bonner";
+let f = d + e;
+
+console.log(f);
