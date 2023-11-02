@@ -138,7 +138,7 @@
 
 // let myAge = parseFloat(prompt("Enter your age"));
 // let nyName = prompt("Enter your name");
-// alert("Hello " + myName + ", you are" + myAge + " years old.");*/
+// alert("Hello " + myName + ", you are" + myAge + " years old.");
 
 // Conditions
 
@@ -286,9 +286,9 @@
 
 // function displayArray(array) {
 //   for (let item of array) {
-//     console.log(item);
+//    console.log(item);
 //   }
-// }
+//  }
 
-// displayArray(colors);
-// displayArray(sports);
+//  displayArray(colors);
+//  displayArray(sports);
