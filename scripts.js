@@ -325,25 +325,25 @@
 //   id.innerHTML = "This element Text has changed.";
 // }
 
-function displayDate() {
-  document.getElementById("myDiv").innerHTML = Date();
-}
+// function displayDate() {
+//   document.getElementById("myDiv").innerHTML = Date();
+// }
 
-document.getElementById("myTime").addEventListener("click", displayTime);
-function displayTime() {
-  let currentDate = new Date();
-  let hours = currentDate.getHours();
-  let am = true;
-  if (hours > 12) {
-    am = false;
-    hours -= 12;
-  }
-  let currentTime = hours + ":" + currentDate.getMinutes();
+// document.getElementById("myTime").addEventListener("click", displayTime);
+// function displayTime() {
+//   let currentDate = new Date();
+//   let hours = currentDate.getHours();
+//   let am = true;
+//   if (hours > 12) {
+//     am = false;
+//     hours -= 12;
+//   }
+//   let currentTime = hours + ":" + currentDate.getMinutes();
 
-  if (am) {
-    currentTime += " AM";
-  } else {
-    currentTime += " PM";
-  }
-  document.getElementById("myDiv").innerHTML = currentTime;
-}
+//   if (am) {
+//     currentTime += " AM";
+//   } else {
+//     currentTime += " PM";
+//   }
+//   document.getElementById("myDiv").innerHTML = currentTime;
+//
