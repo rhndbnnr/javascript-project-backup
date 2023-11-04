@@ -12,7 +12,6 @@ function getCount() {
   let quote = parseFloat(
     prompt("How many times would you like to see your favorite phrase?")
   );
-  let number = prompt(alert(quote));
 }
 
 function printMotto() {}
