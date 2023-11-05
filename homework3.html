@@ -7,15 +7,16 @@
   </head>
   <body>
     <h1>Art Journaling Club</h1>
-    <form name="Art Journal Members Info" onsubmit="newMember()">
+    <form name="memberForm" onsubmit="addMember(); return false">
       First Name: <input type="text" name="first" />
       <br />
       Last Name: <input type="text" name="last" />
       <br />
-      <button type="submit">Join</button>
+      <button type="submit">Save member</button>
     </form>
+
     <h2>Art Journal Members</h2>
-    <ul id="memberList"></ul>
+    <ul id="members"></ul>
     <script src="homework3.js"></script>
   </body>
 </html>
