@@ -14,4 +14,7 @@ function getCount() {
   );
 }
 
-function printMotto() {}
+function getMotto(motto, count) {
+  let motto = answer;
+  let count = console.log(typeof number);
+}
