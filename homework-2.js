@@ -2,19 +2,22 @@ const homework = document.querySelector("p");
 homework.addEventListener("click", getMotto);
 
 function getMotto() {
-  let quote = (alert = prompt("Please enter your favrotie motto?"));
+  return prompt("Please enter your favorite motto?");
 }
-
-const homework2 = document.querySelector("p");
-homework2.addEventListener("click", getCount);
 
 function getCount() {
-  let quote = parseFloat(
-    prompt("How many times would you like to see your favorite phrase?")
+  let count = prompt(
+    "How many times would you like to see your favorite motto?"
   );
+
+  return parseFloat(count);
 }
 
-function getMotto(motto, count) {
-  let motto = answer;
-  let count = console.log(typeof number);
+function printMotto(motto, count) {
+  for (let i = 0; i < count; i++) {
+    console.log(motto);
+  }
 }
+let motto = getMotto();
+let count = getCount();
+printMotto(motto, count);

@@ -346,4 +346,3 @@
 //     currentTime += " PM";
 //   }
 //   document.getElementById("myDiv").innerHTML = currentTime;
-//
