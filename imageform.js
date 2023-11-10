@@ -8,6 +8,4 @@ function addImage() {
   imageContainer.innerHTML = "img";
 
   imageContainer.appendChild(imageElement);
-
-  return false;
 }

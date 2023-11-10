@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Fun Images</h1>
-    <form onsubmit="return addImage()">
+    <form onsubmit="addImage(); return false;">
       <label for="imageURL">Enter an image URL</label>
       <input type="text" id="imageURL" />
       <button type="submit">View Image</button>
