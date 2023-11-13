@@ -1,0 +1,12 @@
+form {
+  display: block;
+}
+
+body {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  margin-bottom: 30px;
+}

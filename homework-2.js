@@ -20,4 +20,5 @@ function printMotto(motto, count) {
 }
 let motto = getMotto();
 let count = getCount();
+
 printMotto(motto, count);
